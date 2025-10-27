@@ -18,3 +18,8 @@ jobs:
           echo "Good"
           echo "Day"
           echo "Everybody"
+          
+      - name: Github Actions 자체 저장된 변수 사용하기
+        run: |
+          echo $GTIHUB_SHA
+          echo $GTIHUB_REPOSITORY
